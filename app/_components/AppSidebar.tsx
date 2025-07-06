@@ -18,7 +18,7 @@ import { usePathname } from 'next/navigation'
 const items = [
     {
         title: "Workspace",
-        url: "#",
+        url: "/dashboard",
         icon: BriefcaseBusiness,
     },
     {
@@ -33,12 +33,12 @@ const items = [
     },
     {
         title: "Billing",
-        url: "#",
+        url: "/billing",
         icon: Wallet2,
     },
     {
         title: "Profile",
-        url: "#",
+        url: "/profile",
         icon: User2Icon,
     },
 ]

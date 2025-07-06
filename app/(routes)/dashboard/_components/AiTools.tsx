@@ -7,7 +7,7 @@ const aiToolsList = [
         desc: 'Chat with AI Agent',
         icon: '/chatbot.png', 
         button: 'Chat Now',
-        path: '/ai-career-chat'
+        path: '/ai-tools/ai-chat'
     },
     {
         name: 'AI Resume Analyzer',
@@ -38,7 +38,7 @@ function AiTools() {
             <h2 className="font-bold text-lg">Available AI Tools</h2>
             <p>Let's Start Building Your Career</p>
 
-            <div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-4">
                 {aiToolsList.map((tool, index) => (
                     <div key={index}>
                         <AiToolCard tool={tool} />

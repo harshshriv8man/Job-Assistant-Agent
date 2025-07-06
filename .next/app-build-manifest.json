@@ -31,10 +31,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/api/user/route.js"
     ],
-    "/_not-found/page": [
+    "/(routes)/billing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/(routes)/billing/page.js"
+    ],
+    "/(routes)/profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/profile/page.js"
+    ],
+    "/(routes)/ai-tools/ai-chat/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/ai-tools/ai-chat/page.js"
     ]
   }
 }
