@@ -1,8 +1,5 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js",
-  "/(routes)/billing/page": "app/(routes)/billing/page.js",
-  "/(routes)/dashboard/page": "app/(routes)/dashboard/page.js",
+  "/api/user/inngest/route": "app/api/user/inngest/route.js",
   "/(routes)/ai-tools/ai-chat/page": "app/(routes)/ai-tools/ai-chat/page.js",
-  "/(routes)/profile/page": "app/(routes)/profile/page.js"
+  "/(routes)/dashboard/page": "app/(routes)/dashboard/page.js"
 }

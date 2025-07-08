@@ -502,16 +502,6 @@ module.exports = require("next/dist/server/app-render/work-unit-async-storage.ex
 
 /***/ }),
 
-/***/ "?d272":
-/*!********************************!*\
-  !*** supports-color (ignored) ***!
-  \********************************/
-/***/ (() => {
-
-/* (ignored) */
-
-/***/ }),
-
 /***/ "assert":
 /*!*************************!*\
   !*** external "assert" ***!
@@ -611,6 +601,17 @@ module.exports = require("node:path");
 
 /***/ }),
 
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -684,7 +685,7 @@ module.exports = require("zlib");
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/@clerk","vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/mime-db","vendor-chunks/axios","vendor-chunks/swr","vendor-chunks/tslib","vendor-chunks/follow-redirects","vendor-chunks/debug","vendor-chunks/form-data","vendor-chunks/cookie","vendor-chunks/asynckit","vendor-chunks/combined-stream","vendor-chunks/use-sync-external-store","vendor-chunks/mime-types","vendor-chunks/proxy-from-env","vendor-chunks/ms","vendor-chunks/dequal","vendor-chunks/delayed-stream","vendor-chunks/map-obj","vendor-chunks/no-case","vendor-chunks/lower-case","vendor-chunks/snakecase-keys","vendor-chunks/snake-case","vendor-chunks/dot-case","vendor-chunks/tailwind-merge","vendor-chunks/@radix-ui","vendor-chunks/@floating-ui","vendor-chunks/react-remove-scroll","vendor-chunks/lucide-react","vendor-chunks/aria-hidden","vendor-chunks/class-variance-authority","vendor-chunks/react-remove-scroll-bar","vendor-chunks/use-callback-ref","vendor-chunks/use-sidecar","vendor-chunks/react-style-singleton","vendor-chunks/clsx","vendor-chunks/get-nonce"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F(routes)%2Fdashboard%2Fpage&page=%2F(routes)%2Fdashboard%2Fpage&appPaths=%2F(routes)%2Fdashboard%2Fpage&pagePath=private-next-app-dir%2F(routes)%2Fdashboard%2Fpage.tsx&appDir=%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@clerk","vendor-chunks/@opentelemetry","vendor-chunks/@swc","vendor-chunks/debug","vendor-chunks/ms","vendor-chunks/supports-color","vendor-chunks/has-flag","vendor-chunks/tailwind-merge","vendor-chunks/mime-db","vendor-chunks/axios","vendor-chunks/@radix-ui","vendor-chunks/@floating-ui","vendor-chunks/swr","vendor-chunks/tslib","vendor-chunks/follow-redirects","vendor-chunks/react-remove-scroll","vendor-chunks/form-data","vendor-chunks/lucide-react","vendor-chunks/cookie","vendor-chunks/asynckit","vendor-chunks/aria-hidden","vendor-chunks/class-variance-authority","vendor-chunks/react-remove-scroll-bar","vendor-chunks/combined-stream","vendor-chunks/use-sync-external-store","vendor-chunks/mime-types","vendor-chunks/use-callback-ref","vendor-chunks/proxy-from-env","vendor-chunks/use-sidecar","vendor-chunks/dequal","vendor-chunks/react-style-singleton","vendor-chunks/delayed-stream","vendor-chunks/map-obj","vendor-chunks/no-case","vendor-chunks/lower-case","vendor-chunks/snakecase-keys","vendor-chunks/clsx","vendor-chunks/get-nonce","vendor-chunks/snake-case","vendor-chunks/dot-case"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F(routes)%2Fdashboard%2Fpage&page=%2F(routes)%2Fdashboard%2Fpage&appPaths=%2F(routes)%2Fdashboard%2Fpage&pagePath=private-next-app-dir%2F(routes)%2Fdashboard%2Fpage.tsx&appDir=%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
