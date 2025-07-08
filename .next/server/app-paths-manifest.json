@@ -1,5 +1,6 @@
 {
   "/api/user/inngest/route": "app/api/user/inngest/route.js",
-  "/(routes)/ai-tools/ai-chat/page": "app/(routes)/ai-tools/ai-chat/page.js",
-  "/(routes)/dashboard/page": "app/(routes)/dashboard/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(routes)/dashboard/page": "app/(routes)/dashboard/page.js",
+  "/(routes)/ai-tools/ai-chat/[chatid]/page": "app/(routes)/ai-tools/ai-chat/[chatid]/page.js"
 }

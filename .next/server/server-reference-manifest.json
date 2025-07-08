@@ -10,11 +10,11 @@
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f4e3728e0c890247a85870fc505eb3459425be40d%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227faf5b0a15932e10633328b2113072fc5489fca43a%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
-        "app/(routes)/ai-tools/ai-chat/page": {
+        "app/_not-found/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f4e3728e0c890247a85870fc505eb3459425be40d%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227faf5b0a15932e10633328b2113072fc5489fca43a%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
-        "app/_not-found/page": {
+        "app/(routes)/ai-tools/ai-chat/[chatid]/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f4e3728e0c890247a85870fc505eb3459425be40d%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227faf5b0a15932e10633328b2113072fc5489fca43a%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
@@ -22,8 +22,8 @@
       "layer": {
         "app/page": "rsc",
         "app/(routes)/dashboard/page": "rsc",
-        "app/(routes)/ai-tools/ai-chat/page": "rsc",
-        "app/_not-found/page": "rsc"
+        "app/_not-found/page": "rsc",
+        "app/(routes)/ai-tools/ai-chat/[chatid]/page": "rsc"
       }
     },
     "7f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2": {
@@ -36,11 +36,11 @@
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f4e3728e0c890247a85870fc505eb3459425be40d%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227faf5b0a15932e10633328b2113072fc5489fca43a%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
-        "app/(routes)/ai-tools/ai-chat/page": {
+        "app/_not-found/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f4e3728e0c890247a85870fc505eb3459425be40d%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227faf5b0a15932e10633328b2113072fc5489fca43a%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
-        "app/_not-found/page": {
+        "app/(routes)/ai-tools/ai-chat/[chatid]/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f4e3728e0c890247a85870fc505eb3459425be40d%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227faf5b0a15932e10633328b2113072fc5489fca43a%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
@@ -48,8 +48,8 @@
       "layer": {
         "app/page": "rsc",
         "app/(routes)/dashboard/page": "rsc",
-        "app/(routes)/ai-tools/ai-chat/page": "rsc",
-        "app/_not-found/page": "rsc"
+        "app/_not-found/page": "rsc",
+        "app/(routes)/ai-tools/ai-chat/[chatid]/page": "rsc"
       }
     },
     "7faf5b0a15932e10633328b2113072fc5489fca43a": {
@@ -62,11 +62,11 @@
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f4e3728e0c890247a85870fc505eb3459425be40d%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227faf5b0a15932e10633328b2113072fc5489fca43a%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
-        "app/(routes)/ai-tools/ai-chat/page": {
+        "app/_not-found/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f4e3728e0c890247a85870fc505eb3459425be40d%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227faf5b0a15932e10633328b2113072fc5489fca43a%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         },
-        "app/_not-found/page": {
+        "app/(routes)/ai-tools/ai-chat/[chatid]/page": {
           "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fkeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f4e3728e0c890247a85870fc505eb3459425be40d%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%7D%2C%7B%22id%22%3A%227f52cdf1d09803c2c1c1b3500ae6029e305fd4fea2%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%7D%2C%7B%22id%22%3A%227faf5b0a15932e10633328b2113072fc5489fca43a%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%7D%5D%5D%5D&__client_imported__=!",
           "async": false
         }
@@ -74,8 +74,8 @@
       "layer": {
         "app/page": "rsc",
         "app/(routes)/dashboard/page": "rsc",
-        "app/(routes)/ai-tools/ai-chat/page": "rsc",
-        "app/_not-found/page": "rsc"
+        "app/_not-found/page": "rsc",
+        "app/(routes)/ai-tools/ai-chat/[chatid]/page": "rsc"
       }
     },
     "7f54b1c9b97c6db123d1920730b932ab069d3dd69f": {
@@ -88,11 +88,11 @@
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f54b1c9b97c6db123d1920730b932ab069d3dd69f%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
-        "app/(routes)/ai-tools/ai-chat/page": {
+        "app/_not-found/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f54b1c9b97c6db123d1920730b932ab069d3dd69f%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
-        "app/_not-found/page": {
+        "app/(routes)/ai-tools/ai-chat/[chatid]/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fharshshrivastav%2FDesktop%2FCoding%20Projects%2FJob-Assistant-Agent%2Fnode_modules%2F%40clerk%2Fnextjs%2Fdist%2Fesm%2Fapp-router%2Fserver-actions.js%22%2C%5B%7B%22id%22%3A%227f54b1c9b97c6db123d1920730b932ab069d3dd69f%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
@@ -100,8 +100,8 @@
       "layer": {
         "app/page": "action-browser",
         "app/(routes)/dashboard/page": "action-browser",
-        "app/(routes)/ai-tools/ai-chat/page": "action-browser",
-        "app/_not-found/page": "action-browser"
+        "app/_not-found/page": "action-browser",
+        "app/(routes)/ai-tools/ai-chat/[chatid]/page": "action-browser"
       }
     }
   },
