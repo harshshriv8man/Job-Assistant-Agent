@@ -35,16 +35,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(routes)/ai-tools/ai-chat/[chatid]/page.js"
-    ],
-    "/api/user/ai-chat/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/user/ai-chat/route.js"
-    ],
-    "/api/user/inngest/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/user/inngest/route.js"
     ]
   }
 }

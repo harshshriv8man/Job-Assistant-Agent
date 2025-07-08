@@ -1,7 +1,5 @@
 {
-  "/api/user/inngest/route": "app/api/user/inngest/route.js",
-  "/api/user/history/route": "app/api/user/history/route.js",
-  "/api/user/route": "app/api/user/route.js",
-  "/(routes)/dashboard/page": "app/(routes)/dashboard/page.js",
-  "/(routes)/ai-tools/ai-chat/[chatid]/page": "app/(routes)/ai-tools/ai-chat/[chatid]/page.js"
+  "/page": "app/page.js",
+  "/(routes)/ai-tools/ai-chat/[chatid]/page": "app/(routes)/ai-tools/ai-chat/[chatid]/page.js",
+  "/(routes)/dashboard/page": "app/(routes)/dashboard/page.js"
 }
