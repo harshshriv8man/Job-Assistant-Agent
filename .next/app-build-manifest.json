@@ -11,6 +11,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
+    "/api/user/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/user/route.js"
+    ],
     "/(routes)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -21,25 +26,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(routes)/dashboard/page.js"
     ],
-    "/api/user/route": [
+    "/api/user/history/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/api/user/route.js"
-    ],
-    "/api/user/inngest/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/user/inngest/route.js"
+      "static/chunks/app/api/user/history/route.js"
     ],
     "/(routes)/ai-tools/ai-chat/[chatid]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(routes)/ai-tools/ai-chat/[chatid]/page.js"
     ],
-    "/_not-found/page": [
+    "/api/user/ai-chat/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/api/user/ai-chat/route.js"
+    ],
+    "/api/user/inngest/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/user/inngest/route.js"
     ]
   }
 }
