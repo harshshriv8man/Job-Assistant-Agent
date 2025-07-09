@@ -1,5 +1,5 @@
 {
-  "/page": "app/page.js",
-  "/(routes)/ai-tools/ai-chat/[chatid]/page": "app/(routes)/ai-tools/ai-chat/[chatid]/page.js",
+  "/api/user/route": "app/api/user/route.js",
+  "/api/user/inngest/route": "app/api/user/inngest/route.js",
   "/(routes)/dashboard/page": "app/(routes)/dashboard/page.js"
 }

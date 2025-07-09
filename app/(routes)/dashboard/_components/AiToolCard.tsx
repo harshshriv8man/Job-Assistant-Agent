@@ -35,7 +35,8 @@ function AiToolCard({ tool }: AIToolProps) {
         // Create new record to history table for other tools
         const result = await axios.post('/api/user/history', {
             recordId: id,
-            content: []
+            content: [],
+            aiAgentType: tool.path
         });
         console.log(result);
         router.push(tool.path + "/" + id); // Navigate to the tool's path if not the AI Resume Analyzer

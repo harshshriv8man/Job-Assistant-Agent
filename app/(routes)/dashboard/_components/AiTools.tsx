@@ -14,7 +14,7 @@ const aiToolsList = [
         desc: 'Improve Your Resume',
         icon: '/resume.png', 
         button: 'Analyze Now',
-        path: '/ai-resume-analyzer'
+        path: '/ai-tools/ai-resume-analyzer'
     },
     {
         name: 'Job Search Assistant',
