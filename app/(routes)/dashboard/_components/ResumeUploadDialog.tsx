@@ -11,10 +11,12 @@ import {
     DialogTitle,
     DialogFooter
 } from "@/components/ui/dialog";
+import { useRouter } from "next/navigation";
 
 function ResumeUploadDialog({ openResumeUpload, setOpenResumeDialog }: any) {
     const [file, setFile] = useState<any>();
     const [loading,setLoading] = useState(false);
+    const router = useRouter();
 
     const onFileChange = (event: any) => {
         const file = event.target.files?.[0];
@@ -30,11 +32,13 @@ function ResumeUploadDialog({ openResumeUpload, setOpenResumeDialog }: any) {
         const formData = new FormData();
         formData.append("recordId", recordId);
         formData.append("resumeFile", file);
-        formData.append("aiAgentType", "/ai-tools/ai-resume-analyzer");
+        // formData.append("aiAgentType", "/ai-tools/ai-resume-analyzer");
         // Send FormData to Backend Server
         const result = await axios.post('/api/user/ai-resume-agent',formData)
         console.log(result.data);
         setLoading(false);
+        router.push(`/ai-tools/ai-resume-analyzer/${recordId}`);
+        setOpenResumeDialog(false);
     }
 
     return (

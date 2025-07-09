@@ -1,3 +1,4 @@
+import { metadata } from "@/app/layout";
 import { integer, pgTable, varchar,json } from "drizzle-orm/pg-core";
 export const usersTable = pgTable("users", {
     id: integer().primaryKey().generatedAlwaysAsIdentity(),
@@ -12,6 +13,7 @@ export const HistoryTable = pgTable('historyTable', {
     content:json(),
     userEmail:varchar('userEmail').references(()=>usersTable.email),
     createdAt: varchar(),
-    aiAgentType: varchar()
+    aiAgentType: varchar(),
+    metaData: varchar()
 
 })

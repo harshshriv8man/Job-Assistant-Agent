@@ -35,6 +35,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/api/user/ai-resume-agent/route.js"
+    ],
+    "/api/user/history/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/user/history/route.js"
+    ],
+    "/(routes)/ai-tools/ai-chat/[chatid]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/ai-tools/ai-chat/[chatid]/page.js"
+    ],
+    "/(routes)/ai-tools/ai-resume-analyzer/[recordid]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(routes)/ai-tools/ai-resume-analyzer/[recordid]/page.js"
     ]
   }
 }

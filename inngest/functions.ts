@@ -213,7 +213,7 @@ export const AiResumeAgent=inngest.createFunction(
   async({event,step})=>{
     const {recordId, base64ResumeFile,pdfText,aiAgentType,userEmail} = await event.data;
     // Upload file to cloud
-    const uploadImageUrl = await step.run("uploadImage",async()=>{
+    const uploadFileUrl = await step.run("uploadImage",async()=>{
       const imageKitFile =  await imagekit.upload({
         file: base64ResumeFile,
         fileName: `${Date.now()}.pdf`,
@@ -229,13 +229,14 @@ export const AiResumeAgent=inngest.createFunction(
     // return parseJson;
 
     // Save to Database
-    const saveToDb = await step.run('SaveToDb',async()=>{
+      const saveToDb = await step.run('SaveToDb',async()=>{
       const result = await db.insert(HistoryTable).values({
         recordId: recordId,
         content: parseJson,
         aiAgentType: aiAgentType,
         createdAt: (new Date()).toString(),
-        userEmail: userEmail
+        userEmail: userEmail,
+        metaData: uploadFileUrl
       });
       console.log(result);
       return parseJson;
